@@ -1,0 +1,7 @@
+{
+  "name": "@semrel-extra/zxbr-test-c",
+  "dependencies": {
+    "@semrel-extra/zxbr-test-a": "workspace:^",
+    "@semrel-extra/zxbr-test-d": "workspace:~"
+  }
+}
