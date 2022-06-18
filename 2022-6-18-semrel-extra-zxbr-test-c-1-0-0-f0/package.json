@@ -1,0 +1,11 @@
+{
+  "name": "@semrel-extra/zxbr-test-c",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@semrel-extra/zxbr-test-a": "^1.0.0",
+    "@semrel-extra/zxbr-test-d": "~1.0.0"
+  },
+  "version": "1.0.0"
+}
