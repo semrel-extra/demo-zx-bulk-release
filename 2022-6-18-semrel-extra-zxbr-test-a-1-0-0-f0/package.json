@@ -1,0 +1,7 @@
+{
+  "name": "@semrel-extra/zxbr-test-a",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.0"
+}
