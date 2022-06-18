@@ -1,3 +1,6 @@
 {
-  "name": "@semrel-extra/zxbr-test-a"
+  "name": "@semrel-extra/zxbr-test-a",
+  "publishConfig": {
+    "access": "public"
+  }
 }

@@ -1,5 +1,8 @@
 {
   "name": "@semrel-extra/zxbr-test-c",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@semrel-extra/zxbr-test-a": "workspace:^",
     "@semrel-extra/zxbr-test-d": "workspace:~"
