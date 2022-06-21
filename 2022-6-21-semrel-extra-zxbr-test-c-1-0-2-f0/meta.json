@@ -1,0 +1,9 @@
+{
+  "META_VERSION": "1",
+  "name": "@semrel-extra/zxbr-test-c",
+  "version": "1.0.2",
+  "dependencies": {
+    "@semrel-extra/zxbr-test-a": "^1.2.0",
+    "@semrel-extra/zxbr-test-d": "~1.0.2"
+  }
+}
