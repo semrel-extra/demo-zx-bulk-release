@@ -4,6 +4,9 @@ on:
   push:
     branches: [ master ]
 
+env:
+  YARN_ENABLE_IMMUTABLE_INSTALLS: false
+
 permissions:
   checks: read
   statuses: write
