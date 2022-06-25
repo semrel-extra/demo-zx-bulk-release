@@ -2,5 +2,22 @@
   "name": "@semrel-extra/zxbr-test-a",
   "publishConfig": {
     "access": "public"
+  },
+  "exports": {
+    ".": "./bundle.js"
+  },
+  "scripts": {
+    "build": "cp index.js bundle.js",
+    "test": "node ./index.js"
+  },
+  "type": "module",
+  "files": [
+    "*.js",
+    "random.txt"
+  ],
+  "release": {
+    "build": true,
+    "test": true,
+    "fetch": true
   }
 }

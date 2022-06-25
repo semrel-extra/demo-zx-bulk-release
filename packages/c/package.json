@@ -3,8 +3,25 @@
   "publishConfig": {
     "access": "public"
   },
+  "type": "module",
+  "files": [
+    "*.js",
+    "random.txt"
+  ],
+  "exports": {
+    ".": "./bundle.js"
+  },
+  "scripts": {
+    "build": "cp index.js bundle.js",
+    "test": "node ./index.js"
+  },
   "dependencies": {
     "@semrel-extra/zxbr-test-a": "workspace:^",
     "@semrel-extra/zxbr-test-d": "workspace:~"
+  },
+  "release": {
+    "build": true,
+    "test": true,
+    "fetch": true
   }
 }
