@@ -121,3 +121,6 @@ storage
 
 # Docs
 docs
+
+# Bundles
+**/bundle.js

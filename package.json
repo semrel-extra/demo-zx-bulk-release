@@ -4,5 +4,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "build": "yarn workspaces foreach --parallel --topological-dev --no-private run build",
+    "test": "yarn workspaces foreach --parallel --topological-dev --no-private run test"
+  },
   "packageManager": "yarn@4.0.0-rc.9"
 }

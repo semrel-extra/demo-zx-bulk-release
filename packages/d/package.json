@@ -8,9 +8,7 @@
     "*.js",
     "random.txt"
   ],
-  "exports": {
-    ".": "./bundle.js"
-  },
+  "exports": "./bundle.js",
   "scripts": {
     "build": "cp index.js bundle.js",
     "test": "node ./index.js"

@@ -11,9 +11,7 @@
   "dependencies": {
     "@semrel-extra/zxbr-test-a": "workspace:*"
   },
-  "exports": {
-    ".": "./bundle.js"
-  },
+  "exports": "./bundle.js",
   "scripts": {
     "build": "cp index.js bundle.js",
     "test": "node ./index.js"
