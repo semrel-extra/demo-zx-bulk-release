@@ -10,8 +10,14 @@
   ],
   "exports": "./bundle.js",
   "scripts": {
-    "build": "cp index.js bundle.js",
+    "build": "cp index.js bundle.js && mkdir -p docs && echo '# docs' $RANDOM > docs/readme.md",
     "test": "node ./index.js"
+  },
+  "release": {
+    "buildCmd": "yarn build",
+    "testCmd": "yarn test",
+    "ghPages": "docs gh-pages c",
+    "fetch": true
   },
   "dependencies": {
     "@semrel-extra/zxbr-test-a": "workspace:^",
