@@ -16,10 +16,5 @@
   "dependencies": {
     "@semrel-extra/zxbr-test-a": "workspace:^",
     "@semrel-extra/zxbr-test-d": "workspace:~"
-  },
-  "release": {
-    "build": true,
-    "test": true,
-    "fetch": true
   }
 }

@@ -15,10 +15,5 @@
   "scripts": {
     "build": "cp index.js bundle.js",
     "test": "node ./index.js"
-  },
-  "release": {
-    "build": true,
-    "test": true,
-    "fetch": true
   }
 }

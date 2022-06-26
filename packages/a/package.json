@@ -14,8 +14,8 @@
     "random.txt"
   ],
   "release": {
-    "build": true,
-    "test": true,
+    "buildCmd": "yarn build",
+    "testCmd": "yarn test",
     "fetch": true
   }
 }
