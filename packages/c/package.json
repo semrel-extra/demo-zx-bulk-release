@@ -14,7 +14,7 @@
     "test": "node ./index.js"
   },
   "release": {
-    "buildCmd": "yarn build",
+    "buildCmd": "yarn && yarn build",
     "testCmd": "yarn test",
     "ghPages": "docs gh-pages c",
     "fetch": true
