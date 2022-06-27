@@ -14,10 +14,10 @@
     "test": "node ./index.js"
   },
   "release": {
-    "buildCmd": "yarn && yarn build",
-    "testCmd": "yarn test",
-    "ghPages": "docs gh-pages c",
-    "fetch": true
+    "cmd": "yarn && yarn build && yarn test",
+    "ghPages": "gh-pages docs c",
+    "npmFetch": true,
+    "changelog": "changelog"
   },
   "dependencies": {
     "@semrel-extra/zxbr-test-a": "workspace:^",
