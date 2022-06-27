@@ -1,0 +1,9 @@
+{
+  "META_VERSION": "1",
+  "name": "@semrel-extra/zxbr-test-d",
+  "hash": "e867551d60f115c91f7c1e6b311db019008c3892",
+  "version": "1.3.2",
+  "dependencies": {
+    "@semrel-extra/zxbr-test-a": "1.6.0"
+  }
+}
