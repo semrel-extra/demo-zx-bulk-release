@@ -1,3 +1,8 @@
+## [@semrel-extra/zxbr-test-a@1.8.0](https://github.com/semrel-extra/demo-zx-bulk-release/compare/2022.6.27-semrel-extra.zxbr-test-a.1.7.0-f0...2022.6.27-semrel-extra.zxbr-test-a.1.8.0-f0) (2022-06-27)
+
+### Features
+* feat(a): random [09c5d2c](https://github.com/semrel-extra/demo-zx-bulk-release/commit/09c5d2c0bbcae4fdae250fdebebe2f1f39ed21d5)
+
 ## [@semrel-extra/zxbr-test-a@1.7.0](https://github.com/semrel-extra/demo-zx-bulk-release/compare/2022.6.27-semrel-extra.zxbr-test-a.1.6.0-f0...2022.6.27-semrel-extra.zxbr-test-a.1.7.0-f0) (2022-06-27)
 
 ### Features
