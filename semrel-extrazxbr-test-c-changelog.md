@@ -1,3 +1,8 @@
+## [@semrel-extra/zxbr-test-c@1.6.2](https://github.com/semrel-extra/demo-zx-bulk-release/compare/2022.6.28-semrel-extra.zxbr-test-c.1.6.1-f0...2022.7.2-semrel-extra.zxbr-test-c.1.6.2-f0) (2022-07-02)
+
+### Dependencies
+* perf: @semrel-extra/zxbr-test-d updated to ~1.3.5
+
 ## [@semrel-extra/zxbr-test-c@1.6.1](https://github.com/semrel-extra/demo-zx-bulk-release/compare/2022.6.27-semrel-extra.zxbr-test-c.1.6.0-f0...2022.6.28-semrel-extra.zxbr-test-c.1.6.1-f0) (2022-06-28)
 
 ### Dependencies
