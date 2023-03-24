@@ -1,3 +1,8 @@
+## [@semrel-extra/zxbr-test-d@1.3.12](https://github.com/semrel-extra/demo-zx-bulk-release/compare/2023.3.24-semrel-extra.zxbr-test-d.1.3.11-f0...2023.3.24-semrel-extra.zxbr-test-d.1.3.12-f0) (2023-03-24)
+
+### Fixes & improvements
+* fix(d): random [24f5189](https://github.com/semrel-extra/demo-zx-bulk-release/commit/24f5189f4e1f2721c49b5b06d5f0dcb2687e6b7a)
+
 ## [@semrel-extra/zxbr-test-d@1.3.11](https://github.com/semrel-extra/demo-zx-bulk-release/compare/2023.3.24-semrel-extra.zxbr-test-d.1.3.10-f0...2023.3.24-semrel-extra.zxbr-test-d.1.3.11-f0) (2023-03-24)
 
 ### Dependencies
