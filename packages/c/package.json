@@ -15,7 +15,6 @@
   },
   "release": {
     "buildCmd": "yarn build && yarn test",
-    "publishCmd": "yarn",
     "ghPages": "gh-pages docs c",
     "npmFetch": true,
     "changelog": "changelog"
