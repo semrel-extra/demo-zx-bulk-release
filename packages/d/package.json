@@ -15,5 +15,8 @@
   },
   "dependencies": {
     "@semrel-extra/zxbr-test-a": "workspace:*"
-  }
+  },
+  "bundleDependencies": [
+    "@semrel-extra/zxbr-test-a"
+  ]
 }
