@@ -17,5 +17,8 @@
     "buildCmd": "yarn build && yarn test",
     "npmFetch": true,
     "changelog": "changelog"
+  },
+  "repository": {
+    "url": "git+https://github.com/semrel-extra/demo-zx-bulk-release"
   }
 }

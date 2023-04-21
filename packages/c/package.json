@@ -23,5 +23,8 @@
   "dependencies": {
     "@semrel-extra/zxbr-test-a": "workspace:^",
     "@semrel-extra/zxbr-test-d": "workspace:~"
+  },
+  "repository": {
+    "url": "git+https://github.com/semrel-extra/demo-zx-bulk-release"
   }
 }

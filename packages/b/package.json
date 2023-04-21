@@ -15,5 +15,8 @@
   "scripts": {
     "build": "cp index.js bundle.js",
     "test": "node ./index.js"
+  },
+  "repository": {
+    "url": "git+https://github.com/semrel-extra/demo-zx-bulk-release"
   }
 }
