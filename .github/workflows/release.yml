@@ -12,6 +12,7 @@ permissions:
   statuses: write
   contents: write
   packages: write
+  id-token: write
 
 jobs:
   release:
