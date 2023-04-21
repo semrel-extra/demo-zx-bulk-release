@@ -16,6 +16,7 @@
   "release": {
     "buildCmd": "yarn build && yarn test",
     "npmFetch": true,
+    "npmProvenance": true,
     "changelog": "changelog"
   },
   "repository": {
