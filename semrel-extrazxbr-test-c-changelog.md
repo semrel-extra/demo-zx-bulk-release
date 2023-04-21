@@ -1,3 +1,8 @@
+## [@semrel-extra/zxbr-test-c@1.6.12](https://github.com/semrel-extra/demo-zx-bulk-release/compare/2023.4.21-semrel-extra.zxbr-test-c.1.6.11-f0...2023.4.21-semrel-extra.zxbr-test-c.1.6.12-f0) (2023-04-21)
+
+### Fixes & improvements
+* fix: fix custom publish cmd [3ab1bf6](https://github.com/semrel-extra/demo-zx-bulk-release/commit/3ab1bf682c01d15a2866efc8f9ab5cdbd2d5ca97)
+
 ## [@semrel-extra/zxbr-test-c@1.6.11](https://github.com/semrel-extra/demo-zx-bulk-release/compare/2023.4.9-semrel-extra.zxbr-test-c.1.6.10-f0...2023.4.21-semrel-extra.zxbr-test-c.1.6.11-f0) (2023-04-21)
 
 ### Dependencies
