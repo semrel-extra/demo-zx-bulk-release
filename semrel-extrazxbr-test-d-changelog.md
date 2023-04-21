@@ -1,3 +1,8 @@
+## [@semrel-extra/zxbr-test-d@1.3.15](https://github.com/semrel-extra/demo-zx-bulk-release/compare/2023.4.9-semrel-extra.zxbr-test-d.1.3.14-f0...2023.4.21-semrel-extra.zxbr-test-d.1.3.15-f0) (2023-04-21)
+
+### Dependencies
+* perf: dependencies @semrel-extra/zxbr-test-a updated to 1.17.0
+
 ## [@semrel-extra/zxbr-test-d@1.3.14](https://github.com/semrel-extra/demo-zx-bulk-release/compare/2023.4.2-semrel-extra.zxbr-test-d.1.3.13-f0...2023.4.9-semrel-extra.zxbr-test-d.1.3.14-f0) (2023-04-09)
 
 ### Dependencies
