@@ -15,7 +15,7 @@
   },
   "release": {
     "buildCmd": "yarn build && yarn test",
-    "publishCmd": "yarn",
+    "publishCmd": "echo 'custom publish cmd'",
     "ghPages": "gh-pages docs c",
     "npmFetch": true,
     "changelog": "changelog"
