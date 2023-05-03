@@ -39,9 +39,9 @@ jobs:
       - name: Release
         run: npm_config_yes=true npx zx-bulk-release
         env:
-          VERBOSE: ${{ secrets.VERBOSE }}
-          GH_USER: ${{ secrets.GH_USER }}
+          VERBOSE: true
+          GH_USER: ${{ secrets.GITHUB_USER }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GIT_COMMITTER_NAME: ${{ secrets.GIT_COMMITTER_NAME }}
-          GIT_COMMITTER_EMAIL: ${{ secrets.GIT_COMMITTER_EMAIL }}
+          GIT_COMMITTER_NAME: ${{ secrets.GITHUB_COMMITTER_NAME }}
+          GIT_COMMITTER_EMAIL: ${{ secrets.GITHUB_COMMITTER_EMAIL }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
