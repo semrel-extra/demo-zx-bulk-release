@@ -40,8 +40,5 @@ jobs:
         run: npm_config_yes=true npx zx-bulk-release
         env:
           VERBOSE: true
-          GH_USER: ${{ secrets.GITHUB_USER }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GIT_COMMITTER_NAME: ${{ secrets.GITHUB_COMMITTER_NAME }}
-          GIT_COMMITTER_EMAIL: ${{ secrets.GITHUB_COMMITTER_EMAIL }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
