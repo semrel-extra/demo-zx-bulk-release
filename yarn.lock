@@ -2,7 +2,8 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 7
+  version: 8
+  cacheKey: 10
 
 "@semrel-extra/zxbr-test-a@workspace:*, @semrel-extra/zxbr-test-a@workspace:^, @semrel-extra/zxbr-test-a@workspace:packages/a":
   version: 0.0.0-use.local
