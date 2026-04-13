@@ -108,7 +108,7 @@ jobs:
 
       - name: Verify
         if: steps.context.outcome == 'success' && steps.download.outcome == 'success'
-        run: npx zx-bulk-release --verify parcels-unverified/
+        run: npx zx-bulk-release --verify parcels-unverified/:parcels/
 
       - name: Deliver
         if: steps.context.outcome == 'success' && steps.download.outcome == 'success'

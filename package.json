@@ -5,8 +5,8 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "yarn workspaces foreach --parallel --topological-dev --no-private run build",
-    "test": "yarn workspaces foreach --parallel --topological-dev --no-private run test"
+    "build": "yarn workspaces foreach -Apt --no-private run build",
+    "test": "yarn workspaces foreach -Apt --no-private run test"
   },
   "packageManager": "yarn@4.6.0"
 }
