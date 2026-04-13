@@ -1,7 +1,8 @@
 module.exports = {
   buildCmd: 'yarn build',
-  publishCmd: 'echo "common (default) publish cmd"',
-  changelog: 'changelog',
+  testCmd: 'yarn test',
   npmFetch: true,
-  npmProvenance: true
+  tagFormat: 'pure',
+  meta: 'asset',
+  changelog: 'changelog'
 }
