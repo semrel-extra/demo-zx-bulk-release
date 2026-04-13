@@ -14,10 +14,8 @@
     "random.txt"
   ],
   "release": {
-    "buildCmd": "yarn build && yarn test",
-    "npmFetch": true,
-    "npmProvenance": true,
-    "changelog": "changelog"
+    "buildCmd": "yarn build",
+    "testCmd": "yarn test"
   },
   "repository": {
     "url": "git+https://github.com/semrel-extra/demo-zx-bulk-release"
