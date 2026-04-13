@@ -29,6 +29,9 @@ jobs:
         with:
           fetch-depth: ${{ env.FETCH_DEPTH }}
 
+      - name: Enable corepack
+        run: corepack enable
+
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
@@ -144,6 +147,9 @@ jobs:
           ref: ${{ github.event.pull_request.head.ref }}
           fetch-depth: ${{ env.PR_FETCH_DEPTH }}
           persist-credentials: false
+
+      - name: Enable corepack
+        run: corepack enable
 
       - name: Setup Node.js
         uses: actions/setup-node@v6
